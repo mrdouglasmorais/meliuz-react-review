@@ -2,9 +2,10 @@ import React from 'react';
 import { 
   BrowserRouter, 
   Switch, 
-  Route } from 'react-router-dom';
+  Route 
+} from 'react-router-dom';
 
-import Home from '@/main/pages/Home'
+import Home from '@/main/pages/Home';
 
 const Routes: React.FC = () => {
   return(
