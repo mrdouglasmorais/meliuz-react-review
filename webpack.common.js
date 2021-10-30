@@ -8,6 +8,7 @@ module.exports = {
     filename: 'bundle-[hash].js',
     publicPath: '/',
   },
+  watch: true,
   resolve: {
     extensions: [ '.ts', '.tsx', '.js', '.scss'],
     alias: {
